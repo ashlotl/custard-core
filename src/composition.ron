@@ -16,7 +16,7 @@ UnloadedComposition(
 	},
 	children: [
 		CrateName(
-			name: "test-core"
+			name: "custard-test-core"
 		)
 	],
 )
