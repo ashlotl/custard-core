@@ -1,0 +1,22 @@
+UnloadedComposition(
+	crates: {
+		CrateName( name: "ashlotl-test-a"): UnloadedCrate(
+			datachunks: {
+				DatachunkName( name: "test-a"): UnloadedDatachunk(
+					type_name: "TestDatachunkA",
+					deserialize: r#"
+						TestDatachunkA(
+							value: 5,
+						)
+					"#,
+				)
+			},
+			tasks: {},
+		)
+	},
+	children: [
+		CrateName(
+			name: "test-core"
+		)
+	],
+)
