@@ -1,6 +1,6 @@
 UnloadedComposition(
 	crates: {
-		CrateName( name: "ashlotl-test-a"): UnloadedCrate(
+		CrateName( name: "custard-basics-test-a"): UnloadedCrate(
 			datachunks: {
 				DatachunkName( name: "test-a"): UnloadedDatachunk(
 					type_name: "TestDatachunkA",
