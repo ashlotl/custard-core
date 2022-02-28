@@ -1,18 +1,6 @@
 UnloadedComposition(
 	crates: {
-		CrateName( name: "custard-basics-test-a"): UnloadedCrate(
-			datachunks: {
-				DatachunkName( name: "test-a"): UnloadedDatachunk(
-					type_name: "TestDatachunkA",
-					deserialize: r#"
-						TestDatachunkA(
-							value: 5,
-						)
-					"#,
-				)
-			},
-			tasks: {},
-		)
+		
 	},
 	children: [
 		CrateName(
