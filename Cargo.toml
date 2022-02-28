@@ -11,9 +11,12 @@ edition = "2021"
 [lib]
 crate-type = ["dylib"]
 
-
 [dependencies]
-custard-macros = {path="../custard-macros"}
-custard-use = {path="../custard-use"}
-lazy_static = {version = "1.4.0"}
+custard-macros = { path = "../custard-macros" }
+custard-use = { path = "../custard-use" }
+
+[patch."https://github.com/ashlotl/custard-core"]
+custard-macros = { git = "https://github.com/ashlotl/custard-macros", branch = "main" }
+custard-use = { git = "https://github.com/ashlotl/custard-use", branch = "main" }
+
 # Here go all the crates that should submit Tasks and Datachunks.
